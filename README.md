@@ -1,4 +1,4 @@
-# pvs-claude-marketplace — Agent Skills
+# ai-hub
 
 A personal collection of reusable agent skills, installable with the [`skills`](https://github.com/vercel-labs/skills) CLI.
 
@@ -7,19 +7,19 @@ A personal collection of reusable agent skills, installable with the [`skills`](
 List available skills:
 
 ```
-npx skills add parfenovvs/pvs-claude-marketplace -l
+npx skills add parfenovvs/ai-hub -l
 ```
 
 Install all skills:
 
 ```
-npx skills add parfenovvs/pvs-claude-marketplace
+npx skills add parfenovvs/ai-hub
 ```
 
 Install a single skill:
 
 ```
-npx skills add parfenovvs/pvs-claude-marketplace --skill commit
+npx skills add parfenovvs/ai-hub --skill commit
 ```
 
 ## Skills

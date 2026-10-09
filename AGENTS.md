@@ -1,13 +1,13 @@
-# pvs-claude-marketplace
+# ai-hub
 
-Personal collection of agent skills, installed with the [`skills`](https://github.com/vercel-labs/skills) CLI (`npx skills add parfenovvs/pvs-claude-marketplace`).
+Personal collection of agent skills, installed with the [`skills`](https://github.com/vercel-labs/skills) CLI (`npx skills add parfenovvs/ai-hub`).
 
 ## Repository Structure
 
 ```
-pvs-claude-marketplace/
+ai-hub/
 ├── README.md        # Overview and install instructions
-├── CLAUDE.md        # This file — project structure and guidance for AI agents
+├── AGENTS.md        # This file — project structure and guidance for AI agents
 └── skills/          # One directory per skill
     ├── commit/SKILL.md
     ├── jj/SKILL.md
@@ -38,4 +38,4 @@ Each skill lives in `skills/<name>/SKILL.md` and contains:
 ## Adding a New Skill
 
 1. Create `skills/<name>/SKILL.md` with a YAML front-matter block (`name`, `description`) and skill body.
-2. Add a row to the tables in `README.md` and `CLAUDE.md`.
+2. Add a row to the tables in `README.md` and `AGENTS.md`.
